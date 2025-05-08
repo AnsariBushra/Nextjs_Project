@@ -1,6 +1,7 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
+    domains: [
       "cdn.pixabay.com",
       "media.istockphoto.com",
       "www.istockphoto.com",
