@@ -130,7 +130,7 @@ export default function Home() {
                 alt={image[currentIndex].alt}
                 className="mx-auto md:w-full md:h-80 mb-6 rounded-xl"
               />
-              <p className="text-lg shadow-2xl">{image[currentIndex].text}</p>
+              <p className="text-lg">{image[currentIndex].text}</p>
             </div>
 
             {/* Dots */}
@@ -162,9 +162,11 @@ export default function Home() {
         >
           <div className="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>
           <div className="relative z-10">
-            <h2 className="text-3xl font-bold mb-10">Customer Testimonials</h2>
+            <h2 className="text-3xl font-bold mb-10 dark:text-black">
+              Customer Testimonials
+            </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-white p-6 rounded shadow-xl">
+              <div className="bg-white dark:bg-gray-700 p-6 rounded shadow-xl">
                 <p className="italic">
                   “SoftSell made it incredibly easy to turn my old licenses into
                   cash. Highly recommended!”
